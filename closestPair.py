@@ -79,7 +79,7 @@ def findCloserSplitPair(delta, pointsInStrip):
     else:
         # Check the book <Introduction to Algorithms> for the reason why
         # we could consider only the 7 nearest neighbours
-        # There could be at maximal 8 points in the rectangle with the size
+        # There could be at most 8 points in the rectangle with the size
         # of delta * 2delta
         for i in range(numPoints - 7):
             for j in range(1, 8):
